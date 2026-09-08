@@ -1,0 +1,74 @@
+.app{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    gap:10px;
+}
+.search{
+  display:flex;
+  align-items:center;
+  gap:30px;
+}
+.search-btn{
+   padding: 12px 24px;
+   border-radius:15px;
+   border:none;
+   background-color:#A855F7;
+   font-size:18px;
+   color:white;
+}
+.search-btn:hover{
+  background-color:#4a1678;
+}
+.text{
+  width:400px;
+  padding: 12px 24px;
+  border:none;
+  font-size:16px;
+  border-radius:15px;
+}
+.Hero{
+    font-size:30px;
+    margin-bottom:40px;
+    text-align:center;
+}
+span{
+    color:#A855F7;
+    font-style:italic;
+    text-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+}
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-size:18px;
+}
+.My-watchlist{
+   width: 100%;
+   padding: 40px 20px;
+}
+.My-watchlist h2{
+  text-align:left;
+  font-size:30px;
+  margin-bottom:20px;
+}
+.watchlist-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding:40px 20px;
+
+}
+.remove-btn{
+  margin-top:auto;
+   background-color:#ebc90c;
+   padding:10px 15px;
+   text-align:center;
+   border-radius:15px; 
+}
+.remove-btn:hover{
+  background-color:#bda20d;
+}
